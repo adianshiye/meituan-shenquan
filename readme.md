@@ -8,6 +8,9 @@
 输入
 
 cd scripts
+
+其实路径：[root@hkqinglong ~]# cd /adian/ql/scripts
+
 python3 mt-terminal-scripts.py
 
 按照提示逐步输入各项参数，token参数需要在美团页面抓取。
