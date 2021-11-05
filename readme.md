@@ -1,3 +1,32 @@
+
+原贴：https://www.kejiwanjia.com/jiaocheng/33700.html
+
+下载mt-terminal-scripts.py（控制台版本）
+
+拷贝到qinglong/scripts路径下，打开docker控制台，
+
+输入
+
+cd scripts
+python3 mt-terminal-scripts.py
+
+按照提示逐步输入各项参数，token参数需要在美团页面抓取。
+
+以上操作为初始化参数设置（目录下会生成txt 如token.txt）
+
+关于经纬度设置，百度地图在线拾取 https://api.map.baidu.com/lbsapi/getpoint/index.html（记得经纬度去掉小数点）
+
+收尾
+青龙添加任务
+
+名称
+美团签到
+命令
+task mt-terminal-scripts.py
+定时规则
+0 11,14,17,21,0,1,2,3 * * *
+
+
 # 美团限时抢红包 天天神券 脚本 # 
 [![followers](https://img.shields.io/badge/dynamic/json?color=%09%2300BFFF&label=Github&prefix=followers%3A&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DfuguiKz)](https://img.shields.io/badge/dynamic/json?color=%09%2300BFFF&label=Github&prefix=followers%3A&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DfuguiKz)
 [![author:fugui](https://img.shields.io/badge/author-fuguiKz-brightgreen)](https://img.shields.io/badge/author-fuguiKz-brightgreen)
