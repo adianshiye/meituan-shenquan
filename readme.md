@@ -5,7 +5,7 @@
 
 拷贝到qinglong/scripts路径下，打开docker控制台，
 
-输入
+输入.  
 
 cd scripts
 
